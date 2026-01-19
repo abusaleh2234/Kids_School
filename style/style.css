@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Navbar style */
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.navTitle {
+    color: rgba(17, 17, 17, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.navItemAll>ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+.navItemAll>ul a {
+    text-decoration: none;
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.navItem_Color_Orange {
+    color: rgba(254, 163, 1, 1);
+}
+
+.navItem_Color_SkyBlue {
+    color: rgba(1, 172, 253, 1);
+}
+
+.navItem_Color_sky {
+    color: rgba(5, 212, 223, 1);
+}
+
+.navItem_Color_Violet {
+    color: rgba(93, 88, 239, 1);
+}
+
+.navButton {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+padding: 10px 60px;
+background-color: rgba(254, 163, 1, 1);
+border-radius: 12px;
+border: none;
+cursor: pointer;
+}
