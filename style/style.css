@@ -75,9 +75,26 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-padding: 10px 60px;
-background-color: rgba(254, 163, 1, 1);
-border-radius: 12px;
-border: none;
-cursor: pointer;
+    padding: 10px 60px;
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.navMenu{
+    display: none;
+}
+
+
+/*      =================== ================ ===================         
+        =================== Responsive  part ===================         
+        =================== ================ ===================         */
+
+@media screen and (max-width:576px) {
+    .navMenu {
+        display: block;
+    }
+    .navContuct , .navItemAll{
+        display: none;
+    }
 }
