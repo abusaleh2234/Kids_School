@@ -176,9 +176,11 @@ body {
 }
 .cardOrange{
     background: linear-gradient(180.00deg, rgba(255, 244, 220, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+    border: 0.94px solid rgba(255, 244, 220, 1);
 }
 .cardViolet{
     background: linear-gradient(180.00deg, rgba(238, 225, 255, 1) 0%,rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255, 1);
+    border: 0.94px solid rgba(242, 232, 255, 1);
 }
 .curriculum_Card img {
     width: 100%;
@@ -208,7 +210,20 @@ body {
     cursor: pointer;
     border: none;
 }
-
+.slide_container{
+    text-align: center;
+    padding: 80px 0 60px 0;
+    
+}
+.slide_btn{
+    padding: 16px 16px;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+}
 /*      =================== ================ ===================         
         =================== Responsive  part ===================         
         =================== ================ ===================         */
