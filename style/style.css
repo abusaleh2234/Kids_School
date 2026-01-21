@@ -329,6 +329,83 @@ body {
     background-color: rgba(93, 88, 240, 1);
 }
 
+footer {
+    background: rgba(1, 172, 253, 1);
+}
+
+.sec_pading {
+    padding: 100px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footerLogo {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logoPart{
+    width: 50%;
+}
+.LinkPart{
+    width: 50%;
+    display: flex;
+    gap: 130px;
+    /* justify-content: space-between; */
+}
+.footerLogo h2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    padding-top: 34px;
+}
+
+.footerDetails {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: Regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 400px;
+    padding-top: 35px;
+}
+
+.footerLink h4 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 12px;
+}
+
+.footerLink ul {
+    list-style: none;
+}
+
+.footerLink ul li {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.socialLink{
+    padding-top: 20px;
+
+}
+.socialLink img{
+    padding-right: 10px;
+}
 /*      =================== ================ ===================         
         =================== Responsive  part ===================         
         =================== ================ ===================         */
@@ -441,20 +518,23 @@ body {
     .asideContainer {
         gap: 11px;
     }
+
     .cardDate {
-    padding: 6px 11px;
-    border-radius: 28px;
-    font-size: 10px;
-    color: white;
-    margin-top: -16px;
-}
-.cardContent {
-    padding: 0 22px 17px 22px;
-}
-.cardTitle {
-    font-size: 10px;
-    font-family: Quicksand;
-    font-weight: 600;
-    padding-top: 43px;
-}
+        padding: 6px 11px;
+        border-radius: 28px;
+        font-size: 10px;
+        color: white;
+        margin-top: -16px;
+    }
+
+    .cardContent {
+        padding: 0 22px 17px 22px;
+    }
+
+    .cardTitle {
+        font-size: 10px;
+        font-family: Quicksand;
+        font-weight: 600;
+        padding-top: 43px;
+    }
 }
