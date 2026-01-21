@@ -230,6 +230,61 @@ body {
     background-color: rgba(254, 163, 1, 1);
     border: none;
 }
+.storyItemContiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.story_Card {
+    background-color: white;
+    border-radius: 16px ;
+}
+.story_Card img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    
+}
+.story_Bg{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.storyCardContent{
+    
+    padding: 0 36px 36px 36px;
+}
+.cardDate{
+    padding: 15px 19px;
+    border-radius: 48px;
+    background-color: rgba(60, 216, 232, 1);
+    color: white;
+    display: inline-block;
+    /* margin-top: -100px; */
+}
+.storyCard_title {
+    color: rgba(0, 0, 0, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    padding: 36px 0 51px 0;
+}
+
+.storyCard_Details {
+    color: rgba(102, 102, 102, 1);
+    font-family: Quicksand;
+    font-style: Medium;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.asideContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
 /*      =================== ================ ===================         
         =================== Responsive  part ===================         
@@ -327,7 +382,9 @@ body {
         font-weight: 500;
         line-height: 19.16px;
     }
-    .card_Button{
+
+    .card_Button {
         font-size: 12px;
     }
+
 }
