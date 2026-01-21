@@ -328,6 +328,22 @@ body {
 .bg_violet {
     background-color: rgba(93, 88, 240, 1);
 }
+.storyView{
+    padding: 90px 0 70px;
+    text-align: center;
+}
+.storyView button {
+    color: rgba(255, 255, 255, 1);
+    font-family: Quicksand;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 12px;
+    background: var(--Black, rgba(17, 17, 17, 1));
+    cursor: pointer;
+    padding: 10px 61px;
+}
 
 footer {
     background: rgba(1, 172, 253, 1);
@@ -342,18 +358,20 @@ footer {
 
 .footerLogo {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
-.logoPart{
+
+.logoPart {
     width: 50%;
 }
-.LinkPart{
+
+.LinkPart {
     width: 50%;
     display: flex;
     gap: 130px;
     /* justify-content: space-between; */
 }
+
 .footerLogo h2 {
     color: rgba(255, 255, 255, 1);
     font-family: Quicksand;
@@ -361,7 +379,8 @@ footer {
     font-size: 42.14px;
     font-weight: 700;
     line-height: 39.51px;
-    padding-top: 34px;
+    width: 140px;
+    /* padding-top: 34px; */
 }
 
 .footerDetails {
@@ -399,13 +418,16 @@ footer {
     padding-top: 20px;
     cursor: pointer;
 }
-.socialLink{
+
+.socialLink {
     padding-top: 20px;
 
 }
-.socialLink img{
+
+.socialLink img {
     padding-right: 10px;
 }
+
 /*      =================== ================ ===================         
         =================== Responsive  part ===================         
         =================== ================ ===================         */
@@ -537,4 +559,22 @@ footer {
         font-weight: 600;
         padding-top: 43px;
     }
+    .sec_pading {
+    padding: 60px 20px  ;
+    flex-direction: column;
+    gap: 50px;
+}
+.logoPart {
+    width: auto;
+}
+
+.LinkPart {
+    width: auto;
+    flex-direction: column;
+    gap: 31px;
+    /* justify-content: space-between; */
+}
+.footerDetails{
+    width: auto;
+}
 }
